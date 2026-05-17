@@ -266,18 +266,6 @@ is one hook, no provider.
 
 ---
 
-## What I'd add with more time
-
-- **Streaming text with token-level animation** — currently text streams in
-  chunks; with `Animated` per-character it'd feel even more alive.
-- **Persistence** — cart and chat history evaporate on app restart.
-  AsyncStorage hydration is ~30 lines but I wanted to keep scope tight.
-- **Item modifiers** — currently "no pickles" is supported as free-text notes;
-  a structured `modifiers` system would map better to a real POS.
-- **Better voice UX** — push-to-talk (hold) + voice activity detection so the
-  recording stops automatically.
-- **Tests** — `cart.ts` is pure functions and is the most testable surface.
-  Vitest would slot in cleanly.
 
 ---
 
