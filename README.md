@@ -9,7 +9,7 @@ a proactive AI assistant that suggests pairings, multi-model orchestration
 (Whisper for transcription + Claude for reasoning), and a polished
 hand-rolled design system.
 
-> Built as a take-home for the Viridien AI Full-Stack Engineering internship.
+> A personal project exploring how voice input and agentic streaming should feel in a real mobile ordering flow.
 
 ---
 
@@ -198,5 +198,4 @@ intelligent-bistro/
 
 ---
 
-e) · Powered by
-Claude Sonnet 4.6 (reasoning) + Groq Whisper (transcription) · Submitted by Yixiang for Viridien
+Powered by Claude Sonnet 4.6 (reasoning) + Groq Whisper (transcription).
